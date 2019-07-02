@@ -1,4 +1,4 @@
-FROM wordpress:5.1.0-php7.1-apache
+FROM wordpress:5.1.1-php7.1-apache
 
 RUN docker-php-source extract && \
     pecl install redis && \
